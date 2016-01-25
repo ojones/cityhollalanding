@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://ojones.github.io/cityhollalanding"
+baseurl = "https://desolate-lake-19599.herokuapp.com/"
 languageCode = "en-us"
 title = "Cityholla"
 theme = "agency"
