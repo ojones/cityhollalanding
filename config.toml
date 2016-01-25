@@ -211,9 +211,9 @@ googleAnalytics = ""
     [params.footer]
         # copyright = "Published under the Apache License 2.0."
 
-        [[params.footer.social]]
-            icon = "fa-github"
-            link = "https://github.com/ktdrv/cityholla"
+#        [[params.footer.social]]
+#            icon = "fa-github"
+#            link = "https://github.com/ktdrv/cityholla"
 
         # [[params.footer.social]]
         #     icon = "fa-facebook"
