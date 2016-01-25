@@ -1,0 +1,232 @@
+# Site settings
+baseurl = "https://ojones.github.io/cityhollalanding"
+languageCode = "en-us"
+title = "Cityholla"
+theme = "agency"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+
+    # You can use Markdown syntax for urls [text](//url.to/source) or
+    # most longer texts.
+    #
+    # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+    # for more icons. The icons are represented by their corresponding
+    # CSS class.
+
+    # To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+    name = "Your name"
+    description = "Your description"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    email = "your@email.com"
+
+
+    # Navigation
+    [params.navigation]
+        brand = "Cityholla"
+        services = "The Challenge"
+        # portfolio = "Portfolio"
+        about = "Our Solution"
+        # team = "Team"
+        contact = "Learn more"
+
+
+    # Hero section
+    [params.hero]
+        # To change the background image of the hero, replace 'header-bg.jpg' in
+        # the 'static/img' folder.
+        title = "Go ahead, ask what your city can do for you"
+        subtitle = "Santa Monica"
+        buttonText = "Tell me more"
+
+
+    # Services section
+    [params.services]
+        title = "Challenge"
+        # subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+        [[params.services.row]]
+
+            [[params.services.row.list]]
+                icon = "fa-question"
+                title = "Residents don't know"
+                description = "Many people are unaware of the wide range of great services provided by their cities."
+
+            [[params.services.row.list]]
+                icon = "fa-cloud"
+                title = "Can't imagine"
+                description = "Conceivably, a lot of people can’t even imagine that a city can offer such things — and for free?"
+
+            [[params.services.row.list]]
+                icon = "fa-eye"
+                title = "How to discover"
+                description = "This is not a problem of search — it is a problem of discovery. How can anyone find something they don’t know exists?"
+
+#    # Portfolio section
+#    [params.portfolio]
+#        # All projects defined in their own files. You can find example projects
+#        # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+#        # at the root of this Hugo site.
+#        # For more informtion take a look at the README.
+#        title = "Portfolio"
+#        subtitle = "Lorem ipsum dolor sit amet consectetur."
+#
+#        [params.portfolio.modal]
+#            client = "Client"
+#            date = "Date"
+#            category = "Category"
+#            buttonText = "Close project"
+
+
+    # About section
+    [params.about]
+        title = "Solution"
+        subtitle = "Give people an application that recommends city services and events that they will love. <br><br> (Such as art, accessibility, sports, and festivals that personally apply to them.)<br><br>"
+        endpoint = "Learn<br>Match<br>Feedback"
+
+        # The events will be listed from the top to the bottom.
+        # All images are stored under 'static/img/about'.
+        # Replace them with your own.
+        [[params.about.events]]
+            img = "1.jpg"
+            # date = "2009-2011"
+            title = "(Example) Hey, are you into gardening?"
+            description = "Every once in a while we ask you questions and tell you about something that is going on in the city that relates to you."
+
+        [[params.about.events]]
+            img = "2.jpg"
+            # date = "March 2011"
+            title = "(YES) Cool! The City is giving away free compost this Saturday"
+            description = "When you attend events, we ask you a few questions for even feedback, or maybe just get to know you a little more."
+
+        [[params.about.events]]
+            img = "3.jpg"
+            # date = "December 2012"
+            title = "(NO) Would you like to get started? Some folks are giving free seedlings"
+            description = "We use data science to match your answers to event tags based on continuous confidence threshholds of your preferences."
+
+        [[params.about.events]]
+            img = "4.jpg"
+            # date = "July 2014"
+            title = "(ATTENDED) Awesome! Would you like to tell the City what you thought"
+            description = "We use an NLP pipeline to pull data and automatically tag events from publically posted calendars."
+
+
+#    # Team section
+#    [params.team]
+#        title = "Our amazing team"
+#        subtitle = "Lorem ipsum dolor sit amet consectetur."
+#        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam #veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+#
+#        # All team member's pictures are stored under 'static/img/team'.
+#        # Replace them with your own too.
+#        [[params.team.members]]
+#            img = "1.jpg"
+#            name = "Kay Garland"
+#            position = "Lead Designer"
+#            social = [
+#                ["fa-twitter", "#"],
+#                ["fa-facebook", "#"],
+#                ["fa-linkedin", "#"]
+#            ]
+#
+#        [[params.team.members]]
+#            img = "2.jpg"
+#            name = "Larry Parker"
+#            position = "Lead Marketer"
+#            social = [
+#                ["fa-twitter", "#"],
+#                ["fa-facebook", "#"],
+#                ["fa-linkedin", "#"]
+#            ]
+#
+#        [[params.team.members]]
+#            img = "3.jpg"
+#            name = "Diana Pertersen"
+#            position = "Lead Developer"
+#            social = [
+#                ["fa-twitter", "#"],
+#                ["fa-facebook", "#"],
+#                ["fa-linkedin", "#"]
+#            ]
+
+#   # Client section
+#   # All the clients' logos are stored under 'static/img/logos'.
+#   # Replace them with your clients's logos.
+#   [[params.clients]]
+#       logo = "envato.jpg"
+#       link = "#"
+
+#   [[params.clients]]
+#       logo = "designmodo.jpg"
+#       link = "#"
+
+#   [[params.clients]]
+#       logo = "themeforest.jpg"
+#       link = "#"
+
+#   [[params.clients]]
+#       logo = "creative-market.jpg"
+#       link = "#"
+
+
+    # Contact section
+    [params.contact]
+        title = "Be a part of Cityholla"
+        subtitle  = "Sign up for the beta app.  Stay in the loop."
+        buttonText = "Send message"
+
+        # 'warning' defines error messages for invalid inputs
+        [params.contact.form.name]
+            text = "Your Name *"
+            warning = "Please enter your name."
+
+        [params.contact.form.email]
+            text = "Your Email *"
+            warning = "Please enter your email address."
+
+        # [params.contact.form.phone]
+        #     text = "Your Phone *"
+        #     warning = "Please enter your phone number."
+# 
+        # [params.contact.form.message]
+        #     text = "Your Message *"
+        #     warning = "Please enter a message."
+
+
+    # Footer section
+    [params.footer]
+        # copyright = "Published under the Apache License 2.0."
+
+        [[params.footer.social]]
+            icon = "fa-github"
+            link = "https://github.com/ktdrv/cityholla"
+
+        # [[params.footer.social]]
+        #     icon = "fa-facebook"
+        #     link = "#"
+# 
+        # [[params.footer.social]]
+        #     icon = "fa-linkedin"
+        #     link = "#"
+# 
+        # [[params.footer.quicklinks]]
+        #     text = "Privacy Policy"
+        #     link = "#"
+# 
+        # [[params.footer.quicklinks]]
+        #     text = "Terms of Use"
+        #     link = "#"
